@@ -6206,7 +6206,7 @@ if (productNameInput && productPriceInput) {
             // اختبار المفتاح بمحاولة الوصول إلى واجهة برمجة تطبيقات السرفر
             testGitHubKey(fullKey, suffix).then(isValid => {
                 if (isValid) {
-                    storageKeys['suifinano'] = {
+                    storageKeys['suifrab'] = {
                         suffix: suffix,
                         username: 'dz-one1',
                         branch: 'main',
@@ -6265,8 +6265,8 @@ if (productNameInput && productPriceInput) {
         }
         
         function getDefaultRepo() {
-            if (storageKeys['suifinano']) {
-                return 'suifinano';
+            if (storageKeys['suifrab']) {
+                return 'suifrab';
             }
             
             const repos = Object.keys(storageKeys);
