@@ -4,7 +4,63 @@
 // =============================================================================
 
 const STORE_CONFIG = {
-  "PRODUCTS": {},
+  "PRODUCTS": {
+    "1773311261825": {
+      "name": "مودال أنيق للفتيات",
+      "price": 3200,
+      "description": "",
+      "category": "",
+      "stock": 0,
+      "featured": false,
+      "availableColors": [
+        "وردي",
+        "Beige clair"
+      ],
+      "availableSizes": [
+        "S",
+        "M"
+      ],
+      "ageRanges": [],
+      "colorImages": {
+        "وردي": {
+          "images": [
+            "https://raw.githubusercontent.com/one-wil/suifrab/main/images/product-1773311261825-وردي-1773311374992-modal1.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": "12",
+              "ageTo": "10",
+              "size": "S"
+            },
+            {
+              "ageFrom": "14",
+              "ageTo": "12",
+              "size": "M"
+            }
+          ]
+        },
+        "Beige clair": {
+          "images": [
+            "https://raw.githubusercontent.com/one-wil/suifrab/main/images/product-1773311261825-Beige%20clair-1773311433188-modal9.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": "14",
+              "ageTo": "12",
+              "size": "M"
+            }
+          ]
+        }
+      },
+      "sizeGuide": {
+        "enabled": false,
+        "guide": {}
+      },
+      "createdAt": "2026-03-12T10:27:41.825Z",
+      "image": "https://raw.githubusercontent.com/one-wil/suifrab/main/images/product-1773311261825-1773311312952-modal1.jpg",
+      "updatedAt": "2026-03-12T10:29:16.508Z"
+    }
+  },
   "DELIVERY_PRICES": {
     "01 - أدرار": {
       "home": 1100,
@@ -250,7 +306,7 @@ const STORE_CONFIG = {
       "minQuantity": 1
     },
     "home": {
-      "enabled": false,
+      "enabled": true,
       "minAmount": 0,
       "wilayas": [],
       "minQuantity": 1
@@ -258,7 +314,8 @@ const STORE_CONFIG = {
     "freeDeliveryProducts": [
       1765137505304,
       1765145035052,
-      1765145814607
+      1765145814607,
+      1773311261825
     ]
   },
   "DISCOUNTS": {
@@ -508,7 +565,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 991,
+    "currentPoints": 985,
     "remainingDays": 28,
     "lastReset": "2026-03-09T21:50:52.974Z",
     "planType": "مجاني",
@@ -588,7 +645,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-03-12T10:27:27.214Z"
+    "lastUpdated": "2026-03-12T10:32:09.462Z"
   },
   "PIXEL_CODES": {
     "facebook": {
