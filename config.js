@@ -369,7 +369,7 @@ const STORE_CONFIG = {
       "minQuantity": 1
     },
     "home": {
-      "enabled": true,
+      "enabled": false,
       "minAmount": 0,
       "wilayas": [],
       "minQuantity": 1
@@ -628,7 +628,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 980,
+    "currentPoints": 978,
     "remainingDays": 18,
     "lastReset": "2026-03-09T21:50:52.974Z",
     "planType": "مجاني",
@@ -708,7 +708,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-03-22T09:58:21.265Z"
+    "lastUpdated": "2026-03-22T11:10:56.404Z"
   },
   "PIXEL_CODES": {
     "facebook": {
