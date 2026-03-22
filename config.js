@@ -59,6 +59,72 @@ const STORE_CONFIG = {
       "createdAt": "2026-03-12T10:27:41.825Z",
       "image": "https://raw.githubusercontent.com/one-wil/suifrab/main/images/product-1773311261825-1773311312952-modal1.jpg",
       "updatedAt": "2026-03-12T10:29:16.508Z"
+    },
+    "1774173075562": {
+      "name": "begger nike ",
+      "price": 3500,
+      "description": "",
+      "category": "",
+      "stock": 0,
+      "featured": false,
+      "availableColors": [
+        "أسود",
+        "رمادي"
+      ],
+      "availableSizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "ageRanges": [],
+      "colorImages": {
+        "أسود": {
+          "images": [
+            "https://raw.githubusercontent.com/one-wil/suifrab/main/images/product-1774173075562-أسود-1774173307446-1000056028.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "S"
+            },
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "M"
+            },
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "L"
+            }
+          ]
+        },
+        "رمادي": {
+          "images": [
+            "https://raw.githubusercontent.com/one-wil/suifrab/main/images/product-1774173075562-رمادي-1774173357735-1000056027.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "S"
+            },
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "M"
+            }
+          ]
+        }
+      },
+      "sizeGuide": {
+        "enabled": false,
+        "guide": {}
+      },
+      "createdAt": "2026-03-22T09:51:15.562Z",
+      "image": "https://raw.githubusercontent.com/one-wil/suifrab/main/images/product-1774173075562-1774173251000-1000056027.jpg",
+      "updatedAt": "2026-03-22T09:56:45.442Z"
     }
   },
   "DELIVERY_PRICES": {
@@ -297,12 +363,9 @@ const STORE_CONFIG = {
   },
   "FREE_DELIVERY": {
     "desk": {
-      "enabled": false,
+      "enabled": true,
       "minAmount": 0,
-      "wilayas": [
-        "01 - أدرار",
-        "02 - الشلف"
-      ],
+      "wilayas": [],
       "minQuantity": 1
     },
     "home": {
@@ -315,16 +378,17 @@ const STORE_CONFIG = {
       1765137505304,
       1765145035052,
       1765145814607,
-      1773311261825
+      1773311261825,
+      1774173075562
     ]
   },
   "DISCOUNTS": {
-    "enableQuantityDiscount": true,
+    "enableQuantityDiscount": false,
     "minQuantityForDiscount": 1,
     "discountPerItem": 500,
     "discountScope": "selected",
     "discountProducts": [],
-    "enablePromotionalDiscount": true,
+    "enablePromotionalDiscount": false,
     "promotionalDiscountPercent": 20,
     "promotionalDiscountedPrice": null,
     "promoDiscountScope": "selected",
@@ -337,7 +401,6 @@ const STORE_CONFIG = {
     "tagline": "أحدث الموديلات لسنة 2026",
     "phoneNumbers": [
       "0671466489",
-      "0551102155",
       "0551102155"
     ],
     "logo": "",
@@ -565,8 +628,8 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 985,
-    "remainingDays": 28,
+    "currentPoints": 980,
+    "remainingDays": 18,
     "lastReset": "2026-03-09T21:50:52.974Z",
     "planType": "مجاني",
     "monthlyPoints": 1000,
@@ -645,7 +708,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-03-12T10:32:09.462Z"
+    "lastUpdated": "2026-03-22T09:58:21.265Z"
   },
   "PIXEL_CODES": {
     "facebook": {
