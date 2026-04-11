@@ -125,6 +125,72 @@ const STORE_CONFIG = {
       "createdAt": "2026-03-22T09:51:15.562Z",
       "image": "https://raw.githubusercontent.com/one-wil/suifrab/main/images/product-1774173075562-1774173251000-1000056027.jpg",
       "updatedAt": "2026-03-22T09:56:45.442Z"
+    },
+    "1775892441072": {
+      "name": "سروال رياضي",
+      "price": 4000,
+      "description": "",
+      "category": "",
+      "stock": 0,
+      "featured": false,
+      "availableColors": [
+        "أسود",
+        "أحمر"
+      ],
+      "availableSizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "ageRanges": [],
+      "colorImages": {
+        "أسود": {
+          "images": [
+            "https://raw.githubusercontent.com/one-wil/suifrab/main/images/product-1775892441072-أسود-1775892513914-9bce1ccbfc0b4441a3a773a79484986e.webp"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "S"
+            },
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "M"
+            },
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "L"
+            }
+          ]
+        },
+        "أحمر": {
+          "images": [
+            "https://raw.githubusercontent.com/one-wil/suifrab/main/images/product-1775892441072-أحمر-1775892547450-70a1ef3977a04ff59d7a030d79b72716.webp"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "M"
+            },
+            {
+              "ageFrom": "  ",
+              "ageTo": " ",
+              "size": "S"
+            }
+          ]
+        }
+      },
+      "sizeGuide": {
+        "enabled": false,
+        "guide": {}
+      },
+      "createdAt": "2026-04-11T07:27:21.072Z",
+      "image": "https://raw.githubusercontent.com/one-wil/suifrab/main/images/product-1775892441072-1775892472540-9bce1ccbfc0b4441a3a773a79484986e.webp",
+      "updatedAt": "2026-04-11T07:29:42.306Z"
     }
   },
   "DELIVERY_PRICES": {
@@ -366,7 +432,7 @@ const STORE_CONFIG = {
       "enabled": true,
       "minAmount": 0,
       "wilayas": [],
-      "minQuantity": 1
+      "minQuantity": 2
     },
     "home": {
       "enabled": false,
@@ -628,9 +694,9 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 978,
-    "remainingDays": 18,
-    "lastReset": "2026-03-09T21:50:52.974Z",
+    "currentPoints": 995,
+    "remainingDays": 30,
+    "lastReset": "2026-04-11T07:23:02.287Z",
     "planType": "مجاني",
     "monthlyPoints": 1000,
     "resetPeriod": 30,
@@ -708,7 +774,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-03-22T11:10:56.404Z"
+    "lastUpdated": "2026-04-11T07:48:53.401Z"
   },
   "PIXEL_CODES": {
     "facebook": {
