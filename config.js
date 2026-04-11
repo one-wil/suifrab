@@ -445,7 +445,8 @@ const STORE_CONFIG = {
       1765145035052,
       1765145814607,
       1773311261825,
-      1774173075562
+      1774173075562,
+      1775892441072
     ]
   },
   "DISCOUNTS": {
@@ -469,7 +470,7 @@ const STORE_CONFIG = {
       "0671466489",
       "0551102155"
     ],
-    "logo": "https://raw.githubusercontent.com/one-wil/suifrab/main/images/store-logo-1775894696326-Screenshot-20260105-233819-Samsung-Internet.jpg",
+    "logo": "https://raw.githubusercontent.com/one-wil/suifrab/main/images/store-logo-1775899863543-Screenshot-20260105-233819-Samsung-Internet.jpg",
     "facebookUrl": "https://www.facebook.com/groups/3131209233768404/?ref=share&mibextid=NSMWBT",
     "instagramUrl": "",
     "messengerUrl": "",
@@ -694,7 +695,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 992,
+    "currentPoints": 989,
     "remainingDays": 30,
     "lastReset": "2026-04-11T07:23:02.287Z",
     "planType": "مجاني",
@@ -774,7 +775,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-04-11T08:05:15.217Z"
+    "lastUpdated": "2026-04-11T09:31:51.338Z"
   },
   "PIXEL_CODES": {
     "facebook": {
